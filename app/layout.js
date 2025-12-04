@@ -8,7 +8,14 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         {/* <Test /> */}
+        {/* <Day5 /> */}
       </body>
     </html>
   );
+}
+
+export function Day5 () {
+  return <>
+    <h1>This is Layout h1</h1>
+  </>
 }
