@@ -1,27 +1,20 @@
-import { Test } from "./components/Navbar";
+"use client";
+import Link from 'next/link';
+import React, { useEffect } from 'react';
 
-export function Testing() {
-  return (    
-    <div>
-      <h1>This is h1</h1>
-
-    </div>
-  );
-}
-
-export function Testing1 () {
+export function HomePage() {
   return <div>
-      <h1>This is h2</h1>
-
-    </div>
+    <h1>Home Page</h1>
+    <Link href="/about">About Page</Link><br />
+    <Link href="/services">Services Page</Link>
+  </div>;
 }
+
 
 export default function Testing2 () {
   
   return <div>
-      <h1>This is h3</h1>
-      <Testing />
-      <Testing1 />
-      <Test />
+      <HomePage />
+
     </div>
 }
