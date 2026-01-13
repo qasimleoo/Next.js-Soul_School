@@ -1,0 +1,81 @@
+
+> my-app@0.1.0 start
+> next start
+
+▲ Next.js 16.1.1
+- Local:         http://localhost:3000
+- Network:       http://10.35.130.219:3000
+
+✓ Starting...
+✓ Ready in 215ms
+
+> my-app@0.1.0 start
+> next start
+
+▲ Next.js 16.1.1
+- Local:         http://localhost:3000
+- Network:       http://10.35.130.219:3000
+
+✓ Starting...
+✓ Ready in 205ms
+server page
+⨯ Error: Server Error Example
+    at b (.next/server/chunks/ssr/_04b29e6d._.js:1:221)
+    at stringify (<anonymous>) {
+  digest: '1297977003'
+}
+
+> my-app@0.1.0 start
+> next start
+
+▲ Next.js 16.1.1
+- Local:         http://localhost:3000
+- Network:       http://10.35.130.219:3000
+
+✓ Starting...
+✓ Ready in 196ms
+server page
+
+> my-app@0.1.0 start
+> next start
+
+▲ Next.js 16.1.1
+- Local:         http://localhost:3000
+- Network:       http://10.35.130.219:3000
+
+✓ Starting...
+✓ Ready in 244ms
+server page
+⨯ Error: Server Error Example
+    at <unknown> (.next/server/chunks/ssr/_04b29e6d._.js:1:895)
+    at g (.next/server/chunks/ssr/_04b29e6d._.js:1:925)
+    at stringify (<anonymous>) {
+  digest: '1440881929'
+}
+
+> my-app@0.1.0 start
+> next start
+
+▲ Next.js 16.1.1
+- Local:         http://localhost:3000
+- Network:       http://10.35.130.219:3000
+
+✓ Starting...
+✓ Ready in 195ms
+server page
+⨯ Error: Server Error Example
+    at <unknown> (.next/server/chunks/ssr/_04b29e6d._.js:1:895)
+    at g (.next/server/chunks/ssr/_04b29e6d._.js:1:925)
+    at stringify (<anonymous>) {
+  digest: '1440881929'
+}
+
+> my-app@0.1.0 start
+> next start
+
+▲ Next.js 16.1.1
+- Local:         http://localhost:3000
+- Network:       http://10.35.130.219:3000
+
+✓ Starting...
+✓ Ready in 195ms

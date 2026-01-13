@@ -1,15 +1,16 @@
+import TestingProvider from "./context/TestingContext";
+
 import "./globals.css";
-import { Footer } from "./components/Footer";
 
 export default function RootLayout({ children }) {
-  
-  return (
-    <html lang="en">
-      <body>
-        {children}
-
-        <Footer />
-      </body>
-    </html>
-  );
+    return (
+        <html
+            lang="en"
+            className="text-2xl flex justify-center items-center h-screen"
+        >
+            <body>
+                <TestingProvider>{children}</TestingProvider>
+            </body>
+        </html>
+    );
 }
